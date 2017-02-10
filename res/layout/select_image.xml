@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:gravity="center_horizontal"
+    android:background="@drawable/background"
+    >
+    <TextView 
+	    android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:layout_marginTop="10dp"
+        android:text="@string/select"
+        android:textSize="20sp"
+	    />
+    
+    <RadioGroup
+        android:id="@+id/radioGroup1"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:id="@+id/radio0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="简单" />
+
+        <RadioButton
+            android:id="@+id/radio1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="一般" />
+
+        <RadioButton
+            android:id="@+id/radio2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="困难" />
+    </RadioGroup>
+    
+	<LinearLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+	    >
+	    <ImageView
+	        android:layout_width="100dp"
+	    	android:layout_height="120dp"
+	    	android:id="@+id/iv1"
+	    	android:src="@drawable/icon1"
+	        />
+	    <ImageView
+	        android:layout_width="100dp"
+	    	android:layout_height="120dp"
+	    	android:id="@+id/iv2"
+	    	android:src="@drawable/icon2"
+	        />
+	    <ImageView
+	        android:layout_width="100dp"
+	    	android:layout_height="120dp"
+	    	android:id="@+id/iv3"
+	    	android:src="@drawable/icon3"
+	        />
+	</LinearLayout>
+	<LinearLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+	    >
+	    
+	    
+	</LinearLayout>
+	<LinearLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+	    >
+	    <ImageView
+	        android:layout_width="100dp"
+	    	android:layout_height="120dp"
+	    	android:id="@+id/iv4"
+	    	android:src="@drawable/icon4"
+	        />
+	    <ImageView
+	        android:layout_width="100dp"
+	    	android:layout_height="120dp"
+	    	android:id="@+id/iv5"
+	    	android:src="@drawable/icon5"
+	        />
+	    <ImageView
+	        android:layout_width="100dp"
+	    	android:layout_height="120dp"
+	    	android:id="@+id/iv6"
+	    	android:src="@drawable/icon6"
+	        />
+	</LinearLayout>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</LinearLayout>
